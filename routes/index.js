@@ -17,7 +17,8 @@ router.get('/qr', (req, res) => {
 router.get('/', (req, res) => {
     res.status(200).json({
         status: true,
-        message: "Successfully connected to server",
+        message: "Successfully connected to server, Enjoy!",
+        error: null,
         data: null
     })
 })
